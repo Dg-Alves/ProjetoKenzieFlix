@@ -16,25 +16,25 @@ header {
     align-items: center;
 }
 
-.conteudo section {
+.conteudo .box {
     display: flex;
     justify-content: center;
 }
 
-.conteudo section ul {
+.conteudo .box ul {
     display: flex;
     width: 700px;
     justify-content: space-between;
 }
 
-.conteudo section ul li {
+.conteudo .box ul li {
     display: flex;
     width: 160px;
     justify-content: center;
     flex-direction: column;
 }
 
-.conteudo section ul li figure {
+.conteudo .box ul li figure {
     display: flex;
     justify-content: center;
     margin: 0;
@@ -44,11 +44,11 @@ header {
     border: 2px solid transparent;
 }
 
-.conteudo section ul li figure:hover {
+.conteudo .box ul li figure:hover {
     border: solid 2px white;
 }
 
-.conteudo section ul li figure .user:hover {
+.conteudo .box ul li figure .user:hover {
     border-radius: 8px;
     transform: scale(1.3);
     background-color: white;
@@ -56,32 +56,35 @@ header {
 
 }
 
-.conteudo section ul li figure .add {
+.conteudo .box ul li figure .add {
     opacity: 0.5;
 }
 
-.conteudo section ul li figure .add:hover {
+.conteudo .box ul li figure .add:hover {
     opacity: 10;
     transition: 0.5s;
 }
 
 
-.conteudo section ul li p {
+.conteudo .box ul li p {
     display: flex;
     justify-content: center;
     color: gray;
 }
 
-.conteudo h1 {
+.titulo h1 {
     display: flex;
     justify-content: center;
+    margin-top: 60px;
     color: #FFFFFF;
     font-size: 40px;
+    font-family: 'IBM Plex Sans', sans-serif;
 }
 
-footer {
+.button {
     display: flex;
     justify-content: center;
+    margin-top: 50px;
 }
 
 button {
