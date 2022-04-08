@@ -1,0 +1,98 @@
+body {
+    background-color: black;
+
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteudo section {
+    display: flex;
+    justify-content: center;
+}
+
+.conteudo section ul {
+    display: flex;
+    width: 700px;
+    justify-content: space-between;
+}
+
+.conteudo section ul li {
+    display: flex;
+    width: 160px;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.conteudo section ul li figure {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    width: 160px;
+    height: 160px;
+    overflow: hidden;
+    border: 2px solid transparent;
+}
+
+.conteudo section ul li figure:hover {
+    border: solid 2px white;
+}
+
+.conteudo section ul li figure .user:hover {
+    border-radius: 8px;
+    transform: scale(1.3);
+    background-color: white;
+    transition: 0.8s;
+
+}
+
+.conteudo section ul li figure .add {
+    opacity: 0.5;
+}
+
+.conteudo section ul li figure .add:hover {
+    opacity: 10;
+    transition: 0.5s;
+}
+
+
+.conteudo section ul li p {
+    display: flex;
+    justify-content: center;
+    color: gray;
+}
+
+.conteudo h1 {
+    display: flex;
+    justify-content: center;
+    color: #FFFFFF;
+    font-size: 40px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    border: 1px solid white;
+    border-radius: 8px;
+    background-color: #121214;
+    color: white;
+    padding: 16px 45px;
+}
+
+button:hover {
+    background-color: white;
+    color: #121214;
+}
